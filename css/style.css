@@ -1,0 +1,643 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Rocky
+@URL: http://wethemez.com
+Author E-mail: rockybd1995@gmail.com
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: HillTown
+@Author: Rocky
+@Developed By: Rocky
+@Developer URL: http://rocky.wethemez.com
+Author E-mail: rockybd1995@gmail.com
+
+@Default Styles
+
+Table of Content:
+01/ Variables
+02/ predefin
+03/ header
+04/ button
+05/ slider
+06/ contact
+07/ feature
+08/ service
+09/ gallery 
+10/ clients 
+11/ blog 
+12/ video 
+13/ banner  
+14/ event  
+15/ room  
+16/ resturant 
+17/ footer
+=====================================================================*/
+/*----------------------------------------------------*/
+/*font Variables*/
+/*Color Variables*/
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:300,400,500,600,700,800|Playfair+Display:400,400i,700,700i");
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+.list_style {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.row.m0 {
+  margin: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+
+body {
+  color: #797979;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#success {
+  display: none;
+}
+
+#error {
+  display: none;
+}
+
+.display_table {
+  display: table;
+  width: 100%;
+}
+
+.display_table_row {
+  display: table-row;
+}
+
+.display_table_cell {
+  display: table-cell;
+  float: none !important;
+}
+
+.p_100 {
+  padding: 100px 0px;
+}
+
+iframe {
+  border: none;
+}
+
+i:before {
+  margin-left: 0px !important;
+}
+
+/* Container Custome Code css
+============================================================================================ */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* End Container Custome Code css
+============================================================================================ */
+/* Main title css
+============================================================================================ */
+.main_title {
+  text-align: center;
+  position: relative;
+  padding-bottom: 22px;
+}
+
+.main_title h6 {
+  font-size: 20px;
+  font-family: "Lora", serif;
+  font-style: italic;
+  color: #2b2bac;
+  padding-bottom: 15px;
+}
+
+.main_title h2 {
+  font-size: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #242424;
+}
+
+.main_title:before {
+  content: "";
+  width: 92px;
+  height: 2px;
+  background: #4a494d;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.titl2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.titl2 h2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #242424;
+  padding-bottom: 15px;
+}
+
+.titl2 p {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #797979;
+}
+
+/* End Cursor Animation css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Main Banner css
+============================================================================================ */
+.main_banner_area {
+  background: url(../img/header-banner-img.jpg) no-repeat scroll center center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 185px;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main_b_text {
+  color: #fff;
+}
+
+.main_b_text h6 {
+  font-size: 20px;
+  letter-spacing: .40px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.main_b_text h4 {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0px;
+}
+
+.main_b_text h5 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.main_b_text p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #e1e1e1;
+  font-style: italic;
+  padding-top: 16px;
+}
+
+.demos_btn {
+  background: #fff;
+  padding: 0px 36px;
+  text-align: center;
+  line-height: 48px;
+  border: 2px solid #fff;
+  display: inline-block;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #242424;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.demos_btn:hover {
+  color: #2b2bac;
+}
+
+/* Main Banner css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Main Demo css
+============================================================================================ */
+.main_demo_area {
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #ebe9ee;
+}
+
+.main_demo_inner .portfolio_filter {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.main_demo_inner .portfolio_filter ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.main_demo_inner .portfolio_filter ul li a {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #242424;
+  position: relative;
+}
+
+.main_demo_inner .portfolio_filter ul li a:before {
+  content: "";
+  height: 15px;
+  width: 2px;
+  background: #242424;
+  position: absolute;
+  right: -26px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.main_demo_inner .portfolio_filter ul li:last-child {
+  margin-right: 0px;
+}
+
+.main_demo_inner .portfolio_filter ul li:last-child a:before {
+  display: none;
+}
+
+.main_demo_inner .portfolio_filter ul li:hover a, .main_demo_inner .portfolio_filter ul li.active a {
+  color: #2b2bac;
+}
+
+.main_demo_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main_demo_img .main_demo_item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.main_demo_img .main_demo_item a {
+  display: block;
+}
+
+.main_demo_img .main_demo_item a img {
+  -webkit-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  transition: all 300ms linear;
+  position: relative;
+  top: 0px;
+  border-radius: 5px;
+}
+
+.main_demo_img .main_demo_item h4 {
+  text-align: center;
+  font-size: 15px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  padding-top: 30px;
+}
+
+.main_demo_img .main_demo_item:hover a img {
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.46);
+  top: -10px;
+}
+
+/* End Main Demo css
+============================================================================================ */
+/* Nice Template Area Area css
+============================================================================================ */
+.nice_template_area {
+  overflow: hidden;
+  background: #fbfbfc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nice_template_area .nice_template_inner {
+  max-width: 1550px;
+  margin: auto;
+  margin-bottom: -30px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_left {
+  width: 24.85%;
+  float: left;
+}
+
+.nice_template_area .nice_template_inner .nice_template_left .nice_template_text h2 {
+  font-size: 80px;
+  line-height: 47px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #242424;
+  padding-bottom: 25px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_left .nice_template_text h2 span {
+  display: block;
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_left .nice_template_text p {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+  color: #797979;
+  max-width: 287px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_right {
+  width: 75.15%;
+  float: right;
+}
+
+.nice_template_area .nice_template_inner .nice_template_right .nice_item {
+  width: calc(100% / 3);
+  float: left;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_right .nice_item img {
+  border-radius: 8px;
+  position: relative;
+  top: 0px;
+  -webkit-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+
+.nice_template_area .nice_template_inner .nice_template_right .nice_item:hover a img {
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.46);
+  top: -10px;
+}
+
+/* End Nice Template Area Area css
+============================================================================================ */
+/* End Nice Template Area Area css
+============================================================================================ */
+.blog_pages_area {
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: center;
+  background: #ededed;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.blog_pages_slider .item {
+  width: calc(100% / 4);
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blog_pages_slider .item a img {
+  position: relative;
+  -webkit-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  transition: all 300ms linear;
+  top: 0px;
+}
+
+.blog_pages_slider .item:hover a img {
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.46);
+  top: -10px;
+}
+
+.blog_pages_slider .owl-dots {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.blog_pages_slider .owl-dots .owl-dot {
+  height: 14px;
+  width: 14px;
+  border: 2px solid #bababa;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.blog_pages_slider .owl-dots .owl-dot:last-child {
+  margin-right: 0px;
+}
+
+.blog_pages_slider .owl-dots .owl-dot.active {
+  border-color: #2b2bac;
+}
+
+/* End Nice Template Area Area css
+============================================================================================ */
+/* End Nice Template Area Area css
+============================================================================================ */
+.feature_count .feature_count_inner {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.15);
+  margin-top: -78px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.feature_count .feature_count_inner .f_count_item {
+  text-align: center;
+  position: relative;
+}
+
+.feature_count .feature_count_inner .f_count_item:before {
+  content: "";
+  height: 103px;
+  width: 1px;
+  position: absolute;
+  background: #a8a8a8;
+  right: -1px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.feature_count .feature_count_inner .f_count_item h4 {
+  color: #565dff;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.feature_count .feature_count_inner .f_count_item p {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #242424;
+}
+
+.feature_count .feature_count_inner .col-md-4:last-child .f_count_item:before {
+  display: none;
+}
+
+.tm_feature_inner {
+  overflow: hidden;
+}
+
+.tm_feature_inner .item_inner_feature {
+  margin-left: -30px;
+  margin-right: -30px;
+  overflow: hidden;
+  margin-bottom: -40px;
+}
+
+.tm_feature_inner .tm_feature_item {
+  width: calc(100% / 6);
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tm_feature_inner .tm_feature_item a {
+  display: block;
+  cursor: pointer;
+}
+
+/* End Nice Template Area Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Footer Area css
+============================================================================================ */
+.footer_area {
+  background: #26252d;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.footer_top {
+  text-align: center;
+}
+
+.footer_top h2 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.footer_top h3 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  padding: 5px 0px 35px 0px;
+}
+
+.footer_top .f_btn {
+  width: 204px;
+  text-align: center;
+  line-height: 52px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  background: #2b2bac;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+  margin-bottom: 100px;
+}
+
+.footer_top .f_btn:hover {
+  background: #fff;
+  color: #2b2bac;
+}
+
+.footer_top h5 {
+  font-size: 14px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  padding-top: 18px;
+  padding-bottom: 80px;
+}
+
+.footer_copyright {
+  border-top: 1px solid #3a3941;
+  padding: 37px 0px;
+  overflow: hidden;
+}
+
+.footer_copyright .float-md-left h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #fff;
+  opacity: .50;
+}
+
+.footer_copyright .float-md-right h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #fff;
+  opacity: .50;
+}
+
+/* End Footer Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */
