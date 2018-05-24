@@ -181,7 +181,7 @@ i:before {
 /* Main Banner css
 ============================================================================================ */
 .main_banner_area {
-  background: url(../img/CSIRO.jpg) no-repeat scroll center center;
+  background: url(../img/csiro.jpg) no-repeat scroll center center;
   background-size: cover;
   text-align: center;
   padding-top: 185px;
